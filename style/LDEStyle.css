@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+.fill {
+  height: calc(100vh - 57px);
+}
+
+.sidebar {
+  overflow-y: auto;
+}
+
+body {
+  font-family: 'Oxygen', sans-serif;
+}
