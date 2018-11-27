@@ -12,6 +12,10 @@
   overflow-y: auto;
 }
 
+.btn-wrap {
+  white-space: normal;
+}
+
 body {
   font-family: 'Oxygen', sans-serif;
 }
