@@ -8,16 +8,17 @@ def find_and_replace(code,find_lines,replace_lines):
     num_replace = len(replace_lines)
 
     i = 0
+    change_made = False
     while i < len(code) - num_find:
         if code[i] == find_lines[0]:
 
             match = True
             for j in range(num_find):
-                print(i+j)
                 if code[i+j] != find_lines[j]:
                     match = False
 
             if match:
+                change_made = True
                 for k in range(num_find):
                     code.pop(i) # removes the line we want to delete
 
@@ -26,7 +27,10 @@ def find_and_replace(code,find_lines,replace_lines):
 
         i += 1
 
-    return code
+    if change_made:
+        return code
+    else:
+        return False
 
 
 # Handles files and configurations
@@ -64,11 +68,15 @@ def replace_code(fandr_file_path, code_file_path):
     out_code = find_and_replace(in_code,find_lines,replace_lines)
 
     in_out_file.close()
-    in_out_file = open(code_file_path,'w')
 
-    in_out_file.writelines(out_code)
+    # Open and write the file if there is a match
+    if out_code != False:
+        print("Writing")
+        in_out_file = open(code_file_path,'w')
 
-    in_out_file.close()
+        in_out_file.writelines(out_code)
+
+        in_out_file.close()
 
 
 # Find specific type of file out of a list of paths
