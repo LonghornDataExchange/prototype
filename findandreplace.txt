@@ -1,4 +1,65 @@
 Find
-  <!-- Hello World! -->
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light active" href="../banquet/aggregate.html">Banquets</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../caterer/aggregate.html">Caterers</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../corporate-supporter/aggregate.html">Corporate Supporters</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../equipment/aggregate.html">Equipment</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../major-events/aggregate.html">Major Events</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../officer-structures/aggregate.html">Officer Structures</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../projects/aggregate.html">Projects</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../social/aggregate.html">Socials</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../speaker/aggregate.html">Speakers</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../technology/aggregate.html">Technology</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../training/aggregate.html">Training</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../volunteer-opportunities/aggregate.html">Volunteer Opportunities</a>
+              </li>
 Replace
-  <!-- Hello World!2 -->
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light active" href="../banquet/aggregate.html">Banquets</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../caterer/aggregate.html">Caterers</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../corporate-supporter/aggregate.html">Corporate Supporters</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../equipment/aggregate.html">Equipment</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../officer-structures/aggregate.html">Officer Structures</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../social/aggregate.html">Socials</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../speaker/aggregate.html">Speakers</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../technology/aggregate.html">Technology</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link font-weight-light" href="../volunteer-opportunities/aggregate.html">Volunteer Opportunities</a>
+              </li>

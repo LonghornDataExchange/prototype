@@ -7,15 +7,13 @@ def find_and_replace(code,find_lines,replace_lines):
     num_find = len(find_lines)
     num_replace = len(replace_lines)
 
-    print(code)
-    print(find_lines)
-
     i = 0
-    while i < len(code):
+    while i < len(code) - num_find:
         if code[i] == find_lines[0]:
 
             match = True
             for j in range(num_find):
+                print(i+j)
                 if code[i+j] != find_lines[j]:
                     match = False
 
@@ -119,7 +117,7 @@ def get_all_paths(start_path):
 def main():
 
     replacement_document = './findandreplace.txt'
-    suffix = 'volunteer-opportunities/data.html'
+    suffix = '.html'
 
     # Find all paths
     all_paths = get_all_paths('.')
