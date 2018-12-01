@@ -1,9 +1,11 @@
 Find
-              </li>
-              <li class="nav-item pl-4">
-                <a class="nav-link font-weight-light" href="../training/aggregate.html">Training</a>
-              </li>
-              <li class="nav-item pl-4">
+          <li class="nav-item">
+            <a class="nav-link" href="../../../about/index.html">About</a>
+          </li>
 Replace
-              </li>
-              <li class="nav-item pl-4">
+          <li class="nav-item">
+            <a class="nav-link" href="../../../about/index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../../contact/index.html">Contact</a>
+          </li>
